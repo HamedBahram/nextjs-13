@@ -4,22 +4,12 @@ const Header = () => {
   return (
     <header className='bg-stone-100 py-12'>
       <nav className='center'>
-        <ul className='flex justify-center gap-8'>
+        <ul className='flex justify-center gap-8 text-sm font-medium tracking-wider uppercase text-stone-500'>
           <li>
-            <Link
-              className='text-sm font-medium uppercase text-stone-500'
-              href='/'
-            >
-              Home
-            </Link>
+            <Link href='/'>Home</Link>
           </li>
           <li>
-            <Link
-              className='text-sm font-medium uppercase text-stone-500'
-              href='/users'
-            >
-              Users
-            </Link>
+            <Link href='/users'>Users</Link>
           </li>
         </ul>
       </nav>

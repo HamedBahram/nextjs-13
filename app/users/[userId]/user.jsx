@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Tweet from './Tweet'
+import Tweet from './tweet'
 
 const User = ({ user }) => {
   return (
@@ -16,8 +16,10 @@ const User = ({ user }) => {
         <h1 className='text-xl font-bold'>{user?.name}</h1>
         <p className='text-sm text-stone-400'>{user?.email}</p>
       </div>
-      <div className='grow py-4'>
-        <h2 className='text-2xl font-semibold tracking-tight'>Recent Tweets</h2>
+      <div className='grow'>
+        <h2 className='text-2xl font-semibold tracking-tight text-stone-600'>
+          Recent Tweets
+        </h2>
         <ul>
           {user.tweets.map(tweet => (
             <Tweet key={tweet.id} tweet={tweet} />
