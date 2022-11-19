@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.13",
-    "@prisma/client": "^4.6.0",
+    "@prisma/client": "^4.6.1",
     "eslint": "8.27.0",
     "eslint-config-next": "13.0.2",
     "next": "13.0.2",
