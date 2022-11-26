@@ -24,7 +24,7 @@ const Tweet = ({ tweet }) => {
       .then(({ tweet }) => {
         setLikes(tweet?.likes)
       })
-  }, [liked])
+  }, [liked, tweet.id])
 
   const handleClick = () => setLiked(liked => !liked)
 
