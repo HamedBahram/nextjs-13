@@ -7,7 +7,7 @@ const User = ({ user }) => {
       <div>
         <div className='relative h-40 w-40 rounded-full'>
           <Image
-            src={user?.imageUrl}
+            src={user?.image}
             alt={user?.name}
             style={{ objectFit: 'cover' }}
             fill
