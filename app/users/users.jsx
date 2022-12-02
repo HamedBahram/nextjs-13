@@ -1,8 +1,8 @@
-import { getUsers } from '@/lib/prisma/users'
 import Link from 'next/link'
+// import { getUsers } from '@/lib/prisma/users'
 
-const Users = async () => {
-  const { users } = await getUsers()
+const Users = async ({ users }) => {
+  // const { users } = await getUsers()
 
   return (
     <section className='fixed h-full w-1/4 bg-stone-800'>
