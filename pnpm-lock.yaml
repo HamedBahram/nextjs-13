@@ -5,6 +5,7 @@ specifiers:
   '@next-auth/prisma-adapter': ^1.0.5
   '@prisma/client': ^4.7.1
   autoprefixer: ^10.4.13
+  clsx: ^1.2.1
   eslint: 8.27.0
   eslint-config-next: 13.0.2
   next: 13.0.6
@@ -22,6 +23,7 @@ dependencies:
   '@heroicons/react': 2.0.13_react@18.2.0
   '@next-auth/prisma-adapter': 1.0.5_w3qkztkwfy6eylhe7n5itugygy
   '@prisma/client': 4.7.1_prisma@4.7.1
+  clsx: 1.2.1
   eslint: 8.27.0
   eslint-config-next: 13.0.2_e3uo4sehh4zr4i6m57mkkxxv7y
   next: 13.0.6_biqbaboplfbrettd7655fr4n2y
@@ -588,6 +590,11 @@ packages:
 
   /client-only/0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
+    dev: false
+
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
     dev: false
 
   /color-convert/2.0.1:

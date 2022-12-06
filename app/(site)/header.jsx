@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import LoginButton from './LoginButton'
+import LoginButton from '../components/auth/SignInButton'
 
 const Header = () => {
   return (
