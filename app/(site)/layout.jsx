@@ -5,12 +5,12 @@ import Provider from './provider'
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
+    <html lang='en' className='h-full scroll-smooth antialiased'>
       <head />
-      <body>
+      <body className='flex h-full flex-col'>
         <Provider>
           <Header />
-          <main>{children}</main>
+          <main className='grow'>{children}</main>
           <Footer />
         </Provider>
       </body>

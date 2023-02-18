@@ -5,8 +5,8 @@ const Users = async ({ users }) => {
   // const { users } = await getUsers()
 
   return (
-    <section className='fixed h-full w-1/4 bg-stone-800'>
-      <div className='center py-4'>
+    <section className='bg-rose-900'>
+      <div className='container py-4'>
         <h2 className='mb-4 pb-3 text-xl border-b border-stone-500 font-medium text-white'>
           Users
         </h2>

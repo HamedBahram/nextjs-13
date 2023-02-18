@@ -6,24 +6,4 @@
   #__next {
     @apply contents;
   }
-
-  html {
-    @apply h-full scroll-smooth antialiased;
-  }
-
-  body {
-    @apply flex h-full flex-col;
-  }
-
-  main {
-    @apply flex-1;
-  }
-
-  .section {
-    @apply py-24;
-  }
-
-  .center {
-    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
 }
