@@ -1,7 +1,8 @@
 import { getUsers } from '@/lib/prisma/users'
 import Users from './users'
 
-export const dynamic = 'force-dynamic'
+// export const dynamic = 'force-dynamic'
+export const revalidate = 0
 
 async function getData() {
   const { users } = await getUsers()
