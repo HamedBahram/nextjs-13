@@ -18,7 +18,7 @@ const UsersLayout = async ({ children }) => {
 
   return (
     <section className='flex'>
-      <aside className='w-1/3 lg:w-1/4 h-[660px] overflow-y-scroll'>
+      <aside className='w-1/3 lg:w-1/4'>
         <Users users={users} />
       </aside>
       <main>{children}</main>
