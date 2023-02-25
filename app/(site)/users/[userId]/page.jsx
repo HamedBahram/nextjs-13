@@ -18,6 +18,11 @@ async function getUser(userId) {
   return user
 }
 
+export async function generateMetadata({ params, searchParams }) {
+  const user = await getUser(params.userId)
+  return { title: user.name }
+}
+
 const Page = async ({ params }) => {
   const user = await getUser(params.userId)
 

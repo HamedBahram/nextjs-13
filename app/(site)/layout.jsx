@@ -13,6 +13,12 @@ const nunito = Nunito_Sans({
   variable: '--font-nunito'
 })
 
+// Page metadata
+export const metadata = {
+  title: 'NextJs 13 Guest Book',
+  description: 'Welcome to NextJs 13 guest book built with the app router'
+}
+
 export default function RootLayout({ children }) {
   return (
     <html
