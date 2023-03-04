@@ -15,8 +15,8 @@ const Page = async () => {
               key={post?.title}
               className='p-8 rounded-md shadow-md'
             >
-              <h3 className='font-semibold'>{post.title}</h3>
-              <p className='text-sm'>{post.author}</p>
+              <h3 className='text-xl font-semibold'>{post.title}</h3>
+              <p className='mt-4 text-sm'>{post.author}</p>
               <time className='text-[12px] text-gray-400'>
                 {post.publishDate}
               </time>
