@@ -1,8 +1,10 @@
+import Hello from '../content/hello.mdx'
+
 const Home = () => {
   return (
-    <section>
+    <section className='py-24'>
       <div className='container py-4'>
-        <h1 className='text-2xl font-semibold tracking-tight'>Home page</h1>
+        <Hello />
       </div>
     </section>
   )
