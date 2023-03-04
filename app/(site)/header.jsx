@@ -14,6 +14,9 @@ const Header = () => {
           <li>
             <Link href='/users'>Users</Link>
           </li>
+          <li>
+            <Link href='/posts'>Posts</Link>
+          </li>
         </ul>
         <ul className='ml-auto'>
           <li>
